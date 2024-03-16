@@ -62,13 +62,13 @@ public class LoginActivity extends AppCompatActivity {
         });
         tvRegister.setOnClickListener(v -> {
             startActivity(new Intent(LoginActivity.this,RegisterActivity.class));
-            finish();
+
         });
 
     }
 
     private void getVariable() {
-       edtUserName = findViewById(R.id.edtUserName1);
+       edtUserName = findViewById(R.id.edtUserName);
        edtPassword = findViewById(R.id.edtPass);
        btnLogin = findViewById(R.id.btnnLogin);
        tvRegister = findViewById(R.id.tvRegister);
